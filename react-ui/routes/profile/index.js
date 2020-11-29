@@ -1,10 +1,9 @@
-import Profile from '../../components/Profile.js'
-const styles = css`/routes/profile/index.css`
+import Profile from '../../components/Profile.js';
 
 export default () => html`
-  <div className=${styles}>
+  <div>
     <header className="App-header">
       <${Profile} />
     </header>
   </div>
-`
+`;

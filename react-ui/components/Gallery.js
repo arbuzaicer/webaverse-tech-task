@@ -1,13 +1,10 @@
-import { React, useEffect } from '/web_modules/es-react.js';
-import htm from '/web_modules/htm.js';
+import {React} from '../web_modules/es-react.js';
+import htm from '../web_modules/htm.js';
 
-const html = htm.bind(React.createElement)
+const html = htm.bind(React.createElement);
 
 const Application = () => {
-  
-    return html`
-      <div> Gallery Page </div>
-    `;
-  };
+  return html` <div>Gallery Page</div> `;
+};
 
-  export default Application;
+export default Application;

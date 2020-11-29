@@ -1,10 +1,9 @@
-import Gallery from '../../components/Gallery.js'
-const styles = css`/routes/gallery/index.css`
+import Gallery from '../../components/Gallery.js';
 
 export default () => html`
-  <div className=${styles}>
+  <div>
     <header className="App-header">
       <${Gallery} />
     </header>
   </div>
-`
+`;
